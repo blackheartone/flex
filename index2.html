@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>骰子的布局2</title>
+    <style>
+        .container {
+            background: black;
+            width: 900px;
+            height: 150px;
+            position: relative;
+            display: flex;
+        }
+
+        .item {
+            background: white;
+            height: 100px;
+            width: 100px;
+            border: 5px solid grey;
+            margin: 20px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .cricle {
+            background: black;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-left: 40%;
+            margin-top: 40%;
+        }
+
+
+
+        .cricle1 {
+            background: black;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+
+        .cricle1:nth-child(1) {
+
+            margin-left: 15%;
+        }
+
+        .cricle1:nth-child(2) {
+            margin-left: 35%;
+            margin-top: 70%;
+        }
+
+
+        .cricle2 {
+            background: black;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+
+        .cricle2:nth-child(1) {
+            margin-left: 15%;
+        }
+
+        .cricle2:nth-child(2) {
+            margin-left: 10%;
+            margin-top: 40%;
+        }
+
+        .cricle2:nth-child(3) {
+            margin-left: 10%;
+            margin-top: 70%;
+        }
+
+
+        .cricle4 {
+            background: black;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin: 15px;
+        }
+
+        .cricle5 {
+            background: black;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin: 15px;
+        }
+
+        .cricle5:nth-child(5) {
+            margin-top: -60%;
+            margin-left: 40%;
+        }
+
+        .cricle6 {
+            background: black;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin: 7px 15px;
+        }
+    </style>
+
+
+
+
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">
+            <p class="cricle"></p>
+        </div>
+        <div class="item">
+            <p class="cricle1"></p>
+            <p class="cricle1"></p>
+        </div>
+        <div class="item">
+            <p class="cricle2"></p>
+            <p class="cricle2"></p>
+            <p class="cricle2"></p>
+        </div>
+        <div class="item">
+            <p class="cricle4"></p>
+            <p class="cricle4"></p>
+            <p class="cricle4"></p>
+            <p class="cricle4"></p>
+        </div>
+
+
+
+
+
+        <div class="item">
+            <p class="cricle5"></p>
+            <p class="cricle5"></p>
+            <p class="cricle5"></p>
+            <p class="cricle5"></p>
+            <p class="cricle5"></p>
+        </div>
+        <div class="item">
+            <p class="cricle6"></p>
+            <p class="cricle6"></p>
+            <p class="cricle6"></p>
+            <p class="cricle6"></p>
+            <p class="cricle6"></p>
+            <p class="cricle6"></p>
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+</html>
