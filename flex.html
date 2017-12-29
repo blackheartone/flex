@@ -7,46 +7,55 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>flex完全居中</title>
     <style>
-        *{
-            margin:0;
-            padding:0;
+        * {
+            margin: 0;
+            padding: 0;
         }
-        .container{
-            height:400px;
+
+        .container {
+            height: 400px;
             width: 400px;
             background: #cdcdcd;
             display: flex;
             flex-wrap: wrap;
-            align-content: flex-start;
-        }
-        .item {
-            height:100px;
-            width:100px;
-        }
-        .item:nth-child(n){
-             background: red;
-        }
-        .item:nth-child(2n){
-            background: yellow;
+            justify-content: flex-start;       
         }
 
+        .item {
+            height: 100px;
+            width: 100px;
+        }
+
+        .item:nth-child(n) {
+            background: red;
+        }
+
+        .item:nth-child(2n) {
+            background: yellow;
+        }
     </style>
 </head>
 
 <body>
     <div class="container">
         <div class="item">
-            
+
+        </div>
+        <div class="item">
+
+        </div>
+        <div class="item">
+
+        </div>
+        <div class="item">
+
+        </div>
+        <div class="item">
+
         </div>
         <div class="item">
             
-        </div>
-        <div class="item">
-            
-        </div>
-        <div class="item">
-            
-        </div>
+         </div>
         <div class="item">
             
         </div>
