@@ -13,19 +13,25 @@
             max-width: 1080px;
         }
 
+        .header {
+            background: #cdcdcd;
+            height: 50px;
+
+        }
+
         .content {
             display: flex;
             justify-content: space-between;
             text-align: center;
             line-height: 45px;
-            margin-top: 60px;
+            margin: 10px 0;
         }
 
         .left {
             background: red;
             width: 180px;
             height: 50px;
-
+            order: -1;
         }
 
         .main {
@@ -42,16 +48,11 @@
 
         }
 
-        .header {
-            background: #cdcdcd;
-            height: 50px;
-            margin-top: -110px;
-        }
 
         .footer {
             background: #cdcdcd;
             height: 50px;
-            margin-top: 70px;
+           ;
         }
     </style>
 
@@ -64,30 +65,22 @@
 <body>
     <div>
 
+        <div class="header"> </div>
 
         <div class="content">
-            <div class="left">
-                侧边栏1固定宽度
-            </div>
             <div class="main">
                 主内容栏目适应宽度
             </div>
+            <div class="left">
+                侧边栏1固定宽度
+            </div>
+            
             <div class="right">
                 侧边栏2固定宽度
             </div>
         </div>
 
-
-
-
-
-        <div class="header">
-
-
-        </div>
-        <div class="footer">
-
-        </div>
+        <div class="footer"> </div>
 
 
 

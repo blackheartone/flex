@@ -16,14 +16,18 @@
             width: 400px;
             background: #cdcdcd;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            flex-wrap: wrap;
+            align-content: flex-start;
         }
         .item {
             height:100px;
             width:100px;
-            background: red;
-            
+        }
+        .item:nth-child(n){
+             background: red;
+        }
+        .item:nth-child(2n){
+            background: yellow;
         }
 
     </style>
@@ -31,6 +35,18 @@
 
 <body>
     <div class="container">
+        <div class="item">
+            
+        </div>
+        <div class="item">
+            
+        </div>
+        <div class="item">
+            
+        </div>
+        <div class="item">
+            
+        </div>
         <div class="item">
             
         </div>
